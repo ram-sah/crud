@@ -1,0 +1,61 @@
+header{
+    background-color:rgb(6, 107, 107);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#logo{
+    font-size: 20px;
+    /* display: inline-block; */
+    float: left;
+    
+    
+}
+#nav-list{  
+    font-size: 20px; 
+    margin-right: 3em;
+    /* margin-top: 0px; */
+    float: right;
+    /* padding: 10px 50px; */
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    /* display: inline-block; */
+   
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+   text-decoration: none;
+}
+a:hover {
+    color: rgb(150, 241, 185);
+    object-position: top;
+}
+.content {
+    margin-left: 20px;
+    margin-top: 5em;
+   font-size: 20px;
+}
+button{
+    width: auto;
+    background-color: rgb(131, 42, 26);
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+.ourButton{
+    width: auto;
+    background-color: rgb(10, 88, 89);
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
